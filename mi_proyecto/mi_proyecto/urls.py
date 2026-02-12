@@ -21,4 +21,3 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("app/", include("nombreaplicacion.urls")),
 ]
-
